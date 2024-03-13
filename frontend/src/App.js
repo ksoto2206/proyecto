@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+import logo from './2747431.svg';
 import './App.css';
-
-function App() {
+import {Button, Form} from 'react-bootstrap';
+function App() { 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          callabo
         </p>
         <a
           className="App-link"
@@ -15,8 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+
         </a>
+        <Button variant = "primary" >sí</Button>{''}
+
       </header>
     </div>
   );
