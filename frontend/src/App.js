@@ -1,13 +1,15 @@
 import logo from './2747431.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Form} from 'react-bootstrap';
+import Registro from './component/Registro';
 function App() { 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          callabo
+          ...
         </p>
         <a
           className="App-link"
@@ -17,7 +19,8 @@ function App() {
         >
 
         </a>
-        <Button variant = "primary" >sí</Button>{''}
+        <Button variant = "primary" >..</Button>{''}
+        <Registro />
 
       </header>
     </div>
