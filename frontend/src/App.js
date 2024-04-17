@@ -2,7 +2,7 @@ import logo from './2747431.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Form} from 'react-bootstrap';
-import Registro from './component/Registro';
+import Cambio from './component/Cambio';
 function App() { 
   return (
     <div className="App">
@@ -20,7 +20,8 @@ function App() {
 
         </a>
         <Button variant = "primary" >..</Button>{''}
-        <Registro />
+        <Cambio />
+
 
       </header>
     </div>

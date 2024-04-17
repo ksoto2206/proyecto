@@ -1,8 +1,10 @@
 import { Button, Form, Col, Row, Card, CardFooter, CardBody } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function registro(personanombre) {
-
+function Registro(personanombre) {
+  function Click(){
+    window.location.href = window.location.href;
+  }
   return (
     <Form>
       <Card>
@@ -60,9 +62,10 @@ function registro(personanombre) {
           </Row>
         </CardBody>
         <Button variant="primary" > Guardar </Button>
+        <Button onClick = {Click} > Cancelar </Button>
       </Card>
     </Form>
   );
 }
 
-export default registro;
+export default Registro;
